@@ -70,8 +70,18 @@ namespace G_NET_12_LINQ01
             //    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
             //});
             //Console.WriteLine(result);
-            
 
+
+
+
+            #endregion
+
+            #region Question 7 
+            //7.Print each product's name along with its position (1-based)
+            //in the list. Expected format: 1.Chai, 2.Chang, etc.
+
+            //Answer:
+            //var result = Source.ProductList.Select((p, i) => $"{i + 1}. {p.ProductName}");
 
 
             #endregion
