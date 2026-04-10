@@ -124,6 +124,16 @@ namespace G_NET_12_LINQ01
 
             #endregion
 
+            #region Question 11 
+            //11.Show position number alongside ProductName
+
+            //Answer:
+            //var result = Source.ProductList.Select((p, i) => $"{i + 1}. {p.ProductName}");
+
+
+
+            #endregion
+
 
 
 
