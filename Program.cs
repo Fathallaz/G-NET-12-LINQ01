@@ -1,5 +1,6 @@
 ﻿using G_NET_12_LINQ01.Models;
 using System.Collections;
+using System.Diagnostics.Metrics;
 using System.Globalization;
 using System.Xml.Linq;
 
@@ -143,6 +144,21 @@ namespace G_NET_12_LINQ01
             ////Answer:
             //var result = Arr.OrderBy(s => s.Length)
             //                .ThenBy(s => s, StringComparer.OrdinalIgnoreCase);
+
+            #endregion
+
+            #region Question 13 
+            //            13.Create a list of all digits in the array whose second
+            //letter is 'i' that is reversed from the order in the
+            //original array.
+
+
+            //Answer:
+            //String[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            //var result = Arr.Where(s => s.Length > 1 && s[1] == 'i')
+            //                .Reverse();
+
 
             #endregion
 
