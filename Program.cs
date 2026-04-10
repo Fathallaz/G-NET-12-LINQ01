@@ -1,4 +1,5 @@
 ﻿using G_NET_12_LINQ01.Models;
+using System.Globalization;
 using System.Xml.Linq;
 
 namespace G_NET_12_LINQ01
@@ -95,6 +96,16 @@ namespace G_NET_12_LINQ01
             //            .ThenByDescending(p => p.UnitPrice);
 
 
+            #endregion
+
+            #region Question 9 
+            //  9.Get all products from the "Beverages" category, sorted by
+            //UnitsInStock descending. Print name and stock.
+
+            //Answer:
+            //var result = Source.ProductList.Where(p => p.Category == "Beverages")
+            //            .OrderByDescending(p => p.UnitsInStock)
+            //            .Select(p => new { p.ProductName, p.UnitsInStock });
             #endregion
 
 
