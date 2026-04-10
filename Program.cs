@@ -1,4 +1,5 @@
 ﻿using G_NET_12_LINQ01.Models;
+using System.Xml.Linq;
 
 namespace G_NET_12_LINQ01
 {
@@ -50,6 +51,28 @@ namespace G_NET_12_LINQ01
 
             //Answer:
             //var result = Source.ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+
+            #endregion
+
+            #region Question 6 
+            //            6.Create a new anonymous type with three properties:
+            //● Name → the product name
+            //● Price → the unit price
+            //● StockStatus → a string: "Available" if UnitsInStock > 0,
+            //otherwise "Out of Stock"
+            //● Print the result.
+
+            //Answer:
+            //var result = Source.ProductList.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Price = p.UnitPrice,
+            //    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //});
+            //Console.WriteLine(result);
+            
+
+
 
             #endregion
 
