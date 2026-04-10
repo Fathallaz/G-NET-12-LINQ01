@@ -44,6 +44,15 @@ namespace G_NET_12_LINQ01
 
             #endregion
 
+            #region Question 5 
+            //5.Get all products that are in stock(UnitsInStock > 0) and
+            //belong to the "Condiments" category.
+
+            //Answer:
+            //var result = Source.ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+
+            #endregion
+
 
 
 
